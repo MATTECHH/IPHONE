@@ -1,16 +1,122 @@
-# React + Vite
+# iPhone 17 Pro Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and immersive product presentation page built with **React** and **Tailwind CSS**, showcasing interactive components such as dynamic color selection, technical highlights, animations, and a premium user experience inspired by high‑end product websites.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### ⭐ **Hero Section**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Fullscreen visual introduction
+* High‑resolution background image
+* Dark gradient overlay for depth
+* Animated scroll indicator using SVG
 
-## Expanding the ESLint configuration
+### ⭐ **Intro Section**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Product headline with bold typography
+* Subheadline with gradient text
+* Call‑to‑action buttons with hover animations
+* Highlight specs grid:
+
+  * Display size
+  * A18 Pro chipset
+  * 48MP camera system
+  * Battery duration
+
+### ⭐ **Colors Section**
+
+* Dynamic color selector with circular swatches
+* Smooth image swapping based on selected color
+* Glass‑effect floating label
+* Two model comparison cards (Pro and Pro Max)
+* Purchase button with pricing and installment options
+
+### ⭐ **Navigation Bar**
+
+* Sticky translucent navbar
+* Smooth anchor links
+* "Comprar" call‑to‑action button
+
+---
+
+## 🛠️ Technologies Used
+
+* **React** – Component‑based UI
+* **Tailwind CSS** – Utility‑first design
+* **JavaScript (ES6+)** – Logic and interactions
+* **Vite** (or CRA) – Fast development environment
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── components/
+│   ├── Hero.jsx
+│   ├── Intro.jsx
+│   ├── Colors.jsx
+│   ├── NavBar.jsx
+│   └── ...
+├── Img/
+│   ├── hero.jpg
+│   ├── iphone-blue.jpg
+│   ├── iphone-silver.jpg
+│   ├── iphone-orange.jpg
+│   └── ...
+└── App.jsx
+```
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+4. Open the project in the browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📘 Customization
+
+You can easily modify:
+
+* Colors in the `colors` array inside `Colors.jsx`
+* Models and specifications in `models` and `specs`
+* UI styles using Tailwind classes
+* Images inside the `/Img` folder
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+---
+
+## 📜 License
+
+This project is open‑source and available under the MIT License.

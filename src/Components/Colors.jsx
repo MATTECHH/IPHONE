@@ -3,10 +3,11 @@ import { useState } from "react";
 const Colors = () => {
 
     const colors = [
-        {id: 'blue', name: 'Titânio azul', image: "/Img/iphone-blue.jpg", colorClass: "bg-blue-500"},
-        {id: 'silver', name: 'Titânio Natural', image: "/Img/iphone-silver.jpg", colorClass: "bg-gray-300"},
-        {id: 'orange', name: 'Titânio Laranja', image: "/Img/iphone-orange.jpg", colorClass: "bg-orange-500"},
+        { id: 'blue', name: 'Titânio azul', image: `${import.meta.env.BASE_URL}Img/iphone-blue.jpg`, colorClass: "bg-blue-500" },
+        { id: 'silver', name: 'Titânio Natural', image: `${import.meta.env.BASE_URL}Img/iphone-silver.jpg`, colorClass: "bg-gray-300" },
+        { id: 'orange', name: 'Titânio Laranja', image: `${import.meta.env.BASE_URL}Img/iphone-orange.jpg`, colorClass: "bg-orange-500" }
     ];
+
 
     const models = [
         {name: "Pro Max", screen: "6,9 polegadas", storage: "256GB 512GB ou 1TB", battery: "33h de video", weight: "221g"},

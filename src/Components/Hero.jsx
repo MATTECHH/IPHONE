@@ -1,8 +1,12 @@
 const Hero = () => {
     return (
         <section className="relative h-screen overflow-hidden bg-black">
-            <div className="absolute top-20 right-65 bottom-0 z-0">
-                <img src={`${import.meta.env.BASE_URL}Img/hero.jpg`} alt="Iphone" loading="lazy" className="w-full h-full object-cover opacity-90" />
+
+            <div className="flex items-center justify-center h-full">
+                <img src={`${import.meta.env.BASE_URL}Img/hero.jpg`} alt="Iphone" loading="lazy" className="w-full mt-90 object-cover" />
+            </div>
+
+            <div>
                 <div className="absolute inset-0 bg-gradient-to-b from-black/43 via-transparent to-black/99"></div>
             </div>
 

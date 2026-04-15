@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/iPhone---17/',
+  base: '/IPHONE/',
   plugins: [react(), tailwindcss()],
 })

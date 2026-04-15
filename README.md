@@ -1,122 +1,158 @@
-# iPhone 17 Pro Showcase
+# 📱 iPhone 17 Pro Landing Page
 
-A modern and immersive product presentation page built with **React** and **Tailwind CSS**, showcasing interactive components such as dynamic color selection, technical highlights, animations, and a premium user experience inspired by high‑end product websites.
-
----
-
-## 🚀 Features
-
-### ⭐ **Hero Section**
-
-* Fullscreen visual introduction
-* High‑resolution background image
-* Dark gradient overlay for depth
-* Animated scroll indicator using SVG
-
-### ⭐ **Intro Section**
-
-* Product headline with bold typography
-* Subheadline with gradient text
-* Call‑to‑action buttons with hover animations
-* Highlight specs grid:
-
-  * Display size
-  * A18 Pro chipset
-  * 48MP camera system
-  * Battery duration
-
-### ⭐ **Colors Section**
-
-* Dynamic color selector with circular swatches
-* Smooth image swapping based on selected color
-* Glass‑effect floating label
-* Two model comparison cards (Pro and Pro Max)
-* Purchase button with pricing and installment options
-
-### ⭐ **Navigation Bar**
-
-* Sticky translucent navbar
-* Smooth anchor links
-* "Comprar" call‑to‑action button
+Uma landing page moderna e responsiva inspirada no design da Apple, desenvolvida com **React + Vite + TailwindCSS**, focada em performance, experiência do usuário e estética premium.
 
 ---
 
-## 🛠️ Technologies Used
+## 🚀 Tecnologias Utilizadas
 
-* **React** – Component‑based UI
-* **Tailwind CSS** – Utility‑first design
-* **JavaScript (ES6+)** – Logic and interactions
-* **Vite** (or CRA) – Fast development environment
+* ⚛️ React
+* ⚡ Vite
+* 🎨 TailwindCSS
+* 🧠 JavaScript (ES6+)
+* 📦 React Router (HashRouter)
 
 ---
 
-## 📂 Project Structure
+## 🎯 Objetivo do Projeto
+
+Criar uma interface elegante e interativa para apresentação do produto **iPhone 17 Pro**, destacando:
+
+* Design premium
+* Opções de cores
+* Especificações técnicas
+* Destaques visuais e animações
+
+---
+
+## 📸 Preview
+
+> Interface inspirada na Apple com foco em minimalismo e sofisticação
+
+---
+
+## 🧩 Estrutura dos Componentes
+
+### 🔹 `NavBar`
+
+* Navegação fixa no topo
+* Links âncora para seções da página
+
+### 🔹 `Hero`
+
+* Imagem principal com destaque visual
+* Gradiente overlay
+* Ícone animado de scroll
+
+### 🔹 `Intro`
+
+* Apresentação do produto
+* Call to actions (botões)
+* Cards com especificações principais
+
+### 🔹 `HighLights`
+
+* Destaques do design e tecnologia
+* Seção de câmera
+* Informações sobre chip e performance
+
+### 🔹 `Colors`
+
+* Seleção interativa de cores 🎨
+* Atualização dinâmica da imagem
+* Comparação entre modelos
+
+---
+
+## ⚙️ Funcionalidades
+
+* ✅ Troca dinâmica de cores do produto
+* ✅ Layout responsivo (mobile + desktop)
+* ✅ Animações com Tailwind
+* ✅ Navegação por âncoras
+* ✅ Imagens otimizadas com lazy loading
+
+---
+
+## 📁 Estrutura do Projeto
 
 ```
 src/
-├── components/
+│
+├── Pages/
+│   └── Home.jsx
+│
+├── Components/
+│   ├── NavBar.jsx
 │   ├── Hero.jsx
 │   ├── Intro.jsx
-│   ├── Colors.jsx
-│   ├── NavBar.jsx
-│   └── ...
-├── Img/
-│   ├── hero.jpg
-│   ├── iphone-blue.jpg
-│   ├── iphone-silver.jpg
-│   ├── iphone-orange.jpg
-│   └── ...
-└── App.jsx
+│   ├── HighLights.jsx
+│   └── Colors.jsx
+│
+├── Styles/
+│   └── index.css
+│
+└── main.jsx
 ```
 
 ---
 
-## ▶️ How to Run the Project
+## 🛠️ Como Rodar o Projeto
 
-1. Clone the repository:
+### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/seu-usuario/seu-repo.git
 ```
 
-2. Install dependencies:
+### 2. Acesse a pasta
+
+```bash
+cd seu-repo
+```
+
+### 3. Instale as dependências
 
 ```bash
 npm install
 ```
 
-3. Start the development server:
+### 4. Rode o projeto
 
 ```bash
 npm run dev
 ```
 
-4. Open the project in the browser:
+---
 
+## 🌐 Deploy
+
+O projeto pode ser hospedado facilmente no:
+
+* GitHub Pages
+* Vercel
+* Netlify
+
+> ⚠️ Para GitHub Pages, use:
+
+```js
+base: "/nome-do-repo/"
 ```
-http://localhost:5173
-```
+
+no `vite.config.js` e `HashRouter`.
 
 ---
 
-## 📘 Customization
 
-You can easily modify:
+## 📄 Licença
 
-* Colors in the `colors` array inside `Colors.jsx`
-* Models and specifications in `models` and `specs`
-* UI styles using Tailwind classes
-* Images inside the `/Img` folder
+Este projeto é apenas para fins educacionais e de portfólio.
 
 ---
 
-## 🤝 Contributing
+## 👨‍💻 Autor
 
-Contributions are welcome! Feel free to open issues or submit pull requests.
+Desenvolvido por **Mateus Monteiro Ramos** 🚀
+Fullstack Developer
 
 ---
-
-## 📜 License
-
-This project is open‑source and available under the MIT License.

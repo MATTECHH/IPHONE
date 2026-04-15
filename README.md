@@ -29,13 +29,5 @@ Criar uma interface elegante e interativa para apresentação do produto **iPhon
 ## 📸 Preview
 > Interface inspirada na Apple com foco em minimalismo e sofisticação
 
-## 📄 Licença
-Este projeto é apenas para fins educacionais e de portfólio.
-
----
-
 ## 👨‍💻 Autor
 Desenvolvido por **Mateus Monteiro Ramos** 🚀
-Fullstack Developer
-
----

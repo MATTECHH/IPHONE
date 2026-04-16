@@ -1,33 +1,54 @@
 # 📱 iPhone 17 Pro Landing Page
-https://mattechh.github.io/IPHONE/
 
-Uma landing page moderna e responsiva inspirada no design da Apple, desenvolvida com **React + Vite + TailwindCSS**, focada em performance, experiência do usuário e estética premium.
+Uma landing page moderna e responsiva inspirada no design da Apple 🍎, desenvolvida com foco em **performance, estética premium e experiência do usuário**.
+
+🔗 **Acesse o projeto:**
+https://mattechh.github.io/IPHONE/
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias
 
 * ⚛️ React
 * ⚡ Vite
 * 🎨 TailwindCSS
 * 🧠 JavaScript (ES6+)
-* 📦 React Router (HashRouter)
+* 🔀 React Router (HashRouter)
 
 ---
 
-## 🎯 Objetivo do Projeto
+## 🎯 Sobre o Projeto
 
-Criar uma interface elegante e interativa para apresentação do produto **iPhone 17 Pro**, destacando:
+Este projeto simula a página de apresentação do **iPhone 17 Pro**, destacando:
 
-* Design premium
-* Opções de cores
-* Especificações técnicas
-* Destaques visuais e animações
+* ✨ Design minimalista e moderno
+* 🎨 Variações de cores do produto
+* 📱 Interface responsiva
+* ⚡ Alta performance e carregamento rápido
 
 ---
 
 ## 📸 Preview
-> Interface inspirada na Apple com foco em minimalismo e sofisticação
+
+Interface inspirada na Apple, com foco em **sofisticação e usabilidade**.
+
+---
+
+## 🛠️ Como rodar o projeto
+
+```bash
+# Clone o repositório
+git clone https://github.com/mattechh/IPHONE.git
+
+# Acesse a pasta
+cd IPHONE
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
+npm run dev
+```
 
 ## 👨‍💻 Autor
 Desenvolvido por **Mateus Monteiro Ramos** 🚀

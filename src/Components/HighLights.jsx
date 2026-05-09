@@ -1,8 +1,6 @@
 
 const HighLights = () => {
 
-
-
     return (
         <section className="bg-black py-20 px-6" id="design">
             <div className="max-w-7xl mx-auto">
